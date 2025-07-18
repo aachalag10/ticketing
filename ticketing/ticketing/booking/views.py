@@ -16,7 +16,7 @@ from django.contrib.auth.decorators import login_required
 
 current_balance = 200
 
-# ✅ SIGNUP VIEW
+
 def signup_view(request):
     if request.method == 'POST':
         username = request.POST['username']
